@@ -11,6 +11,10 @@ import Foundation
 
 public class Utilities {
     
+    /* Theses utilities could be updated for more general usage for file type
+        and testing purposes.
+     */
+    
     func getSchoolListXml(fileName: String)-> String{
      
         if let path = Bundle.main.path(forResource: fileName, ofType: "xml"){
