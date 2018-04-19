@@ -12,7 +12,7 @@
 		0B35D01F208738C9000F3421 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B35D01D208738C9000F3421 /* Main.storyboard */; };
 		0B35D021208738C9000F3421 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B35D020208738C9000F3421 /* Assets.xcassets */; };
 		0B35D024208738C9000F3421 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B35D022208738C9000F3421 /* LaunchScreen.storyboard */; };
-		0B35D02F208738C9000F3421 /* JPCAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B35D02E208738C9000F3421 /* JPCAppTests.swift */; };
+		0B35D02F208738C9000F3421 /* 20180418-LM-NYCSchools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B35D02E208738C9000F3421 /* 20180418-LM-NYCSchools.swift */; };
 		0B35D03A20873938000F3421 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B35D03920873938000F3421 /* TableViewController.swift */; };
 		0B7DA8B320874F1600FE81A7 /* SchoolInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7DA8B220874F1600FE81A7 /* SchoolInfo.swift */; };
 		0B7DA8B52087501500FE81A7 /* SchoolParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7DA8B42087501500FE81A7 /* SchoolParser.swift */; };
@@ -20,6 +20,8 @@
 		0B7DA8B920875AD300FE81A7 /* SATScores.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0B7DA8B720875AD300FE81A7 /* SATScores.xml */; };
 		0B7DA8BC2087875B00FE81A7 /* Utilites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7DA8BB2087875B00FE81A7 /* Utilites.swift */; };
 		0B7DA8BF208788DF00FE81A7 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7DA8BE208788DF00FE81A7 /* ViewModel.swift */; };
+		0B7DA8C5208821FE00FE81A7 /* SATScoresTest.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0B7DA8C3208821FE00FE81A7 /* SATScoresTest.xml */; };
+		0B7DA8C6208821FE00FE81A7 /* SchoolTest.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0B7DA8C4208821FE00FE81A7 /* SchoolTest.xml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,15 +35,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0B35D016208738C9000F3421 /* JPCApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JPCApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B35D016208738C9000F3421 /* 20180418-LM-NYCSchools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "20180418-LM-NYCSchools.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B35D019208738C9000F3421 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0B35D01B208738C9000F3421 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0B35D01E208738C9000F3421 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0B35D020208738C9000F3421 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B35D023208738C9000F3421 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B35D025208738C9000F3421 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0B35D02A208738C9000F3421 /* JPCAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JPCAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0B35D02E208738C9000F3421 /* JPCAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPCAppTests.swift; sourceTree = "<group>"; };
+		0B35D02A208738C9000F3421 /* 20180418-LM-NYCSchoolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20180418-LM-NYCSchoolsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B35D02E208738C9000F3421 /* 20180418-LM-NYCSchools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "20180418-LM-NYCSchools.swift"; sourceTree = "<group>"; };
 		0B35D030208738C9000F3421 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B35D03920873938000F3421 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		0B7DA8B220874F1600FE81A7 /* SchoolInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolInfo.swift; sourceTree = "<group>"; };
@@ -50,6 +52,8 @@
 		0B7DA8B720875AD300FE81A7 /* SATScores.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = SATScores.xml; sourceTree = "<group>"; };
 		0B7DA8BB2087875B00FE81A7 /* Utilites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilites.swift; sourceTree = "<group>"; };
 		0B7DA8BE208788DF00FE81A7 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		0B7DA8C3208821FE00FE81A7 /* SATScoresTest.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = SATScoresTest.xml; sourceTree = "<group>"; };
+		0B7DA8C4208821FE00FE81A7 /* SchoolTest.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = SchoolTest.xml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,8 +77,8 @@
 		0B35D00D208738C9000F3421 = {
 			isa = PBXGroup;
 			children = (
-				0B35D018208738C9000F3421 /* JPCApp */,
-				0B35D02D208738C9000F3421 /* JPCAppTests */,
+				0B35D018208738C9000F3421 /* 20180418-LM-NYCSchools */,
+				0B35D02D208738C9000F3421 /* 20180418-LM-NYCSchoolsTest */,
 				0B35D017208738C9000F3421 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -82,13 +86,13 @@
 		0B35D017208738C9000F3421 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0B35D016208738C9000F3421 /* JPCApp.app */,
-				0B35D02A208738C9000F3421 /* JPCAppTests.xctest */,
+				0B35D016208738C9000F3421 /* 20180418-LM-NYCSchools.app */,
+				0B35D02A208738C9000F3421 /* 20180418-LM-NYCSchoolsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0B35D018208738C9000F3421 /* JPCApp */ = {
+		0B35D018208738C9000F3421 /* 20180418-LM-NYCSchools */ = {
 			isa = PBXGroup;
 			children = (
 				0B7DA8B120874EC100FE81A7 /* Supporting Files */,
@@ -102,17 +106,17 @@
 				0B35D025208738C9000F3421 /* Info.plist */,
 				0B7DA8BA2087874800FE81A7 /* Utilites */,
 			);
-			path = JPCApp;
+			path = "20180418-LM-NYCSchools";
 			sourceTree = "<group>";
 		};
-		0B35D02D208738C9000F3421 /* JPCAppTests */ = {
+		0B35D02D208738C9000F3421 /* 20180418-LM-NYCSchoolsTest */ = {
 			isa = PBXGroup;
 			children = (
 				0B7DA8C02087E99F00FE81A7 /* Test Files */,
-				0B35D02E208738C9000F3421 /* JPCAppTests.swift */,
+				0B35D02E208738C9000F3421 /* 20180418-LM-NYCSchools.swift */,
 				0B35D030208738C9000F3421 /* Info.plist */,
 			);
-			path = JPCAppTests;
+			path = "20180418-LM-NYCSchoolsTest";
 			sourceTree = "<group>";
 		};
 		0B7DA8AE20874E7000FE81A7 /* Model */ = {
@@ -161,6 +165,8 @@
 		0B7DA8C02087E99F00FE81A7 /* Test Files */ = {
 			isa = PBXGroup;
 			children = (
+				0B7DA8C3208821FE00FE81A7 /* SATScoresTest.xml */,
+				0B7DA8C4208821FE00FE81A7 /* SchoolTest.xml */,
 			);
 			path = "Test Files";
 			sourceTree = "<group>";
@@ -168,9 +174,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0B35D015208738C9000F3421 /* JPCApp */ = {
+		0B35D015208738C9000F3421 /* 20180418-LM-NYCSchools */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0B35D033208738C9000F3421 /* Build configuration list for PBXNativeTarget "JPCApp" */;
+			buildConfigurationList = 0B35D033208738C9000F3421 /* Build configuration list for PBXNativeTarget "20180418-LM-NYCSchools" */;
 			buildPhases = (
 				0B35D012208738C9000F3421 /* Sources */,
 				0B35D013208738C9000F3421 /* Frameworks */,
@@ -180,14 +186,14 @@
 			);
 			dependencies = (
 			);
-			name = JPCApp;
+			name = "20180418-LM-NYCSchools";
 			productName = JPCApp;
-			productReference = 0B35D016208738C9000F3421 /* JPCApp.app */;
+			productReference = 0B35D016208738C9000F3421 /* 20180418-LM-NYCSchools.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0B35D029208738C9000F3421 /* JPCAppTests */ = {
+		0B35D029208738C9000F3421 /* 20180418-LM-NYCSchoolsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0B35D036208738C9000F3421 /* Build configuration list for PBXNativeTarget "JPCAppTests" */;
+			buildConfigurationList = 0B35D036208738C9000F3421 /* Build configuration list for PBXNativeTarget "20180418-LM-NYCSchoolsTests" */;
 			buildPhases = (
 				0B35D026208738C9000F3421 /* Sources */,
 				0B35D027208738C9000F3421 /* Frameworks */,
@@ -198,9 +204,9 @@
 			dependencies = (
 				0B35D02C208738C9000F3421 /* PBXTargetDependency */,
 			);
-			name = JPCAppTests;
+			name = "20180418-LM-NYCSchoolsTests";
 			productName = JPCAppTests;
-			productReference = 0B35D02A208738C9000F3421 /* JPCAppTests.xctest */;
+			productReference = 0B35D02A208738C9000F3421 /* 20180418-LM-NYCSchoolsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -224,7 +230,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0B35D011208738C9000F3421 /* Build configuration list for PBXProject "JPCApp" */;
+			buildConfigurationList = 0B35D011208738C9000F3421 /* Build configuration list for PBXProject "20180418-LM-NYCSchools" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -237,8 +243,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0B35D015208738C9000F3421 /* JPCApp */,
-				0B35D029208738C9000F3421 /* JPCAppTests */,
+				0B35D015208738C9000F3421 /* 20180418-LM-NYCSchools */,
+				0B35D029208738C9000F3421 /* 20180418-LM-NYCSchoolsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -260,6 +266,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B7DA8C5208821FE00FE81A7 /* SATScoresTest.xml in Resources */,
+				0B7DA8C6208821FE00FE81A7 /* SchoolTest.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +292,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B35D02F208738C9000F3421 /* JPCAppTests.swift in Sources */,
+				0B35D02F208738C9000F3421 /* 20180418-LM-NYCSchools.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,7 +301,7 @@
 /* Begin PBXTargetDependency section */
 		0B35D02C208738C9000F3421 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0B35D015208738C9000F3421 /* JPCApp */;
+			target = 0B35D015208738C9000F3421 /* 20180418-LM-NYCSchools */;
 			targetProxy = 0B35D02B208738C9000F3421 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -430,9 +438,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = JPCApp/Info.plist;
+				INFOPLIST_FILE = "20180418-LM-NYCSchools/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.AUv3Host.JPCApp";
+				PRODUCT_BUNDLE_IDENTIFIER = "20180418-LM-NYCSchools";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -444,9 +452,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = JPCApp/Info.plist;
+				INFOPLIST_FILE = "20180418-LM-NYCSchools/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.AUv3Host.JPCApp";
+				PRODUCT_BUNDLE_IDENTIFIER = "20180418-LM-NYCSchools";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -465,7 +473,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JPCApp.app/JPCApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/20180418-LM-NYCSchools.app/20180418-LM-NYCSchools";
 			};
 			name = Debug;
 		};
@@ -481,14 +489,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JPCApp.app/JPCApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/20180418-LM-NYCSchools.app/20180418-LM-NYCSchools";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0B35D011208738C9000F3421 /* Build configuration list for PBXProject "JPCApp" */ = {
+		0B35D011208738C9000F3421 /* Build configuration list for PBXProject "20180418-LM-NYCSchools" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0B35D031208738C9000F3421 /* Debug */,
@@ -497,7 +505,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0B35D033208738C9000F3421 /* Build configuration list for PBXNativeTarget "JPCApp" */ = {
+		0B35D033208738C9000F3421 /* Build configuration list for PBXNativeTarget "20180418-LM-NYCSchools" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0B35D034208738C9000F3421 /* Debug */,
@@ -506,7 +514,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0B35D036208738C9000F3421 /* Build configuration list for PBXNativeTarget "JPCAppTests" */ = {
+		0B35D036208738C9000F3421 /* Build configuration list for PBXNativeTarget "20180418-LM-NYCSchoolsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0B35D037208738C9000F3421 /* Debug */,
