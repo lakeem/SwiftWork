@@ -1,6 +1,6 @@
 //
 //  SchoolInfo.swift
-//  JPCApp
+//  20180418-LM-NYCSchools
 //
 //  Created by lakeem muhammad on 4/18/18.
 //  Copyright © 2018 lakeem muhammad. All rights reserved.

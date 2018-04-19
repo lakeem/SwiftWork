@@ -1,6 +1,6 @@
 //
 //  TableViewController.swift
-//  JPCApp
+//  20180418-LM-NYCSchools
 //
 //  Created by lakeem muhammad on 4/18/18.
 //  Copyright © 2018 lakeem muhammad. All rights reserved.
@@ -18,11 +18,9 @@ class TableViewController: UITableViewController {
 
         //Let the ViewModel handle importing xml and data preparation.
         let testData = ViewModel()
-        let listOfSchoools = testData.loadAndPrepData()
-        //this is only for debug and testing. This block can be ignored.
-        for school in listOfSchoools{
-            print(school.description)
-        }
+        let getFileNames = SetUpFiles()
+        _ = testData.loadAndPrepData(getFileNamesFrom: getFileNames)
+        
     }
 
     override func didReceiveMemoryWarning() {

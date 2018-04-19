@@ -10,27 +10,35 @@ import Foundation
 
 var dataPrepComplete = [SchoolModelInfo]()
 
-protocol FileNames {
-    var schoolMasterList: String {get set}
-    var schoolSATList: String {get set}
+
+public class SetUpFiles{
+    var schoolMasterList = ""
+    var schoolSATList = ""
+    
+    init() {
+        schoolMasterList = "HighSchoolNames"
+        schoolSATList = "SATScores"
+    }
+    
+    init(schoolList: String, satList : String) {
+        schoolMasterList = schoolList
+        schoolSATList = satList
+    }
 }
 
-public class ViewModel : FileNames {
+public class ViewModel {
     
-    var schoolMasterList: String = "HighSchoolNames"
-    var schoolSATList: String = "SATScores"
 
-    
-    
-    func loadAndPrepData() -> [SchoolModelInfo]{
+
+    func loadAndPrepData( getFileNamesFrom: SetUpFiles) -> [SchoolModelInfo]{
         
         let stringPrep = Utilities()
         
         //load school list xml
-        let schoolNameXML = stringPrep.getSchoolListXml(fileName: schoolMasterList)
+        let schoolNameXML = stringPrep.getSchoolListXml(fileName: getFileNamesFrom.schoolMasterList)
         
         //load SAT xml
-        let schoolSATXmlData = stringPrep.getSchoolSATInfoXml(fileName: schoolSATList)
+        let schoolSATXmlData = stringPrep.getSchoolSATInfoXml(fileName: getFileNamesFrom.schoolSATList)
         
         //parse school list passing in dictonary and school xml
         let parseSchoolNameList = SchoolParser(withXML: schoolNameXML)
@@ -42,8 +50,7 @@ public class ViewModel : FileNames {
         
         //update list with sat scores etc...
         schoolInfoDictionary = parseSATInfo.parser()
-        
-        
+
         for (_, SchoolModelInfo) in schoolInfoDictionary {
             dataPrepComplete.append(SchoolModelInfo)
         }

@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  JPCApp
+//  20180418-LM-NYCSchools
 //
 //  Created by lakeem muhammad on 4/18/18.
 //  Copyright © 2018 lakeem muhammad. All rights reserved.
@@ -15,7 +15,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
        //titleLabel.attributedText = dataPrepComplete[myIndex].htmlDataToDisplay
-            
         titleLabel.text = dataPrepComplete[myIndex].description
     }
 
