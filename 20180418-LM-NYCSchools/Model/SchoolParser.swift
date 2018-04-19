@@ -33,7 +33,6 @@ import Foundation
     
         xmlParser?.delegate = self
         xmlParser?.parse()
-        
         return schoolList
         }
 }
@@ -50,14 +49,12 @@ extension SchoolParser: XMLParserDelegate{
         }
     }
     
-    
     public func parser(_ parser: XMLParser, didEndElement elementName: String, namespaceURI: String?, qualifiedName qName: String?) {
         
         if elementName == "school_name"{
             //could be an issues....
             currentSchool?.schoolName = xmlText.uppercased()
         }
-        
         if elementName == "dbn"{
             //could be an issues....
             currentSchool?.schoolUniqueId = xmlText.lowercased()
@@ -68,14 +65,11 @@ extension SchoolParser: XMLParserDelegate{
             }
         }
     }
-
+    
     public func parser(_ parser: XMLParser, foundCharacters string: String) {
         xmlText += string
     }
-    
 }
-
-
 
 
 /* Part of the requirement specifies two different xml files. A complete list of schools and
@@ -123,26 +117,20 @@ extension SatParser: XMLParserDelegate{
         }
     }
     
-
-    
     public func parser(_ parser: XMLParser, didEndElement elementName: String, namespaceURI: String?, qualifiedName qName: String?) {
         
         if elementName == "dbn"{
             currentSchoolSatInfo?.schoolUniqueId = xmlText.lowercased()
         }
-        
         if elementName == "sat_math_avg_score"{
             currentSchoolSatInfo?.mathScore = xmlText
         }
-        
         if elementName == "sat_critical_reading_avg_score"{
             currentSchoolSatInfo?.readingScore = xmlText
         }
         if elementName == "sat_writing_avg_score"{
             currentSchoolSatInfo?.writingScore = xmlText
         }
-
-        
         if elementName == "row"{
             if let school = currentSchoolSatInfo{
                 
@@ -158,7 +146,6 @@ extension SatParser: XMLParserDelegate{
     public func parser(_ parser: XMLParser, foundCharacters string: String) {
         xmlText += string
         }
-
 }
 
 
