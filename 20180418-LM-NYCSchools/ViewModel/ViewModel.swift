@@ -1,6 +1,6 @@
 //
 //  ViewModel.swift
-//  JPCApp
+//  20180418-LM-NYCSchools 
 //
 //  Created by lakeem muhammad on 4/18/18.
 //  Copyright © 2018 lakeem muhammad. All rights reserved.
@@ -28,26 +28,18 @@ public class SetUpFiles{
 
 public class ViewModel {
     
-
-
     func loadAndPrepData( getFileNamesFrom: SetUpFiles) -> [SchoolModelInfo]{
         
         let stringPrep = Utilities()
-        
         //load school list xml
         let schoolNameXML = stringPrep.getSchoolListXml(fileName: getFileNamesFrom.schoolMasterList)
-        
         //load SAT xml
         let schoolSATXmlData = stringPrep.getSchoolSATInfoXml(fileName: getFileNamesFrom.schoolSATList)
-        
         //parse school list passing in dictonary and school xml
         let parseSchoolNameList = SchoolParser(withXML: schoolNameXML)
-        
         var schoolInfoDictionary = parseSchoolNameList.parser()
-        
         //Parse school list passing in dictionary and sat xml
         let parseSATInfo = SatParser(withXML: schoolSATXmlData, schoolList: schoolInfoDictionary)
-        
         //update list with sat scores etc...
         schoolInfoDictionary = parseSATInfo.parser()
 
@@ -56,12 +48,5 @@ public class ViewModel {
         }
         return dataPrepComplete
     }
-    
-    
-   
-    
-    
-
-    
     
 }
